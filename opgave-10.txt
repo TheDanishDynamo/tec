@@ -1,0 +1,34 @@
+namespace Opgave10
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.BackgroundColor = ConsoleColor.Black;
+            Console.Clear();
+
+            // Dansk flag
+            Console.BackgroundColor = ConsoleColor.Red;
+            Console.SetCursorPosition(55, 12);
+
+            // Det røde
+            Console.Write("         ");
+            Console.SetCursorPosition(55, 13);
+            Console.Write("         ");
+            Console.SetCursorPosition(55, 14);
+            Console.Write("         ");
+
+            // Det hvide
+            Console.BackgroundColor = ConsoleColor.White;
+            Console.SetCursorPosition(3+55,12);
+            Console.Write("  ");
+            Console.SetCursorPosition(0 + 55, 13);
+            Console.Write("         ");
+            Console.SetCursorPosition(3 + 55, 14);
+            Console.Write("  ");
+
+            Console.ReadKey();
+
+        }
+    }
+}

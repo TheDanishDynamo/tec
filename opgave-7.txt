@@ -1,0 +1,12 @@
+namespace Opgave7
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.OutputEncoding = System.Text.Encoding.GetEncoding(28591);
+            Console.WriteLine("Der er mange {0} æbler i den {1} skål", "røde", "blå");
+            Console.ReadLine();
+        }
+    }
+}

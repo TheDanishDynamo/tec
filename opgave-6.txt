@@ -1,0 +1,12 @@
+namespace Special
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.OutputEncoding = System.Text.Encoding.GetEncoding(28591);
+            Console.WriteLine("©®¹²³³³");
+            Console.ReadKey();
+        }
+    }
+}

@@ -1,0 +1,18 @@
+using System.Collections.Generic;
+
+namespace Opgave8
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.OutputEncoding = System.Text.Encoding.GetEncoding(28591);
+            Console.WriteLine("Kære alle. Velkommen til fest.");
+            Console.WriteLine();
+            Console.Write("{0} medbringer {1}.", "Allan", "brød");
+            Console.Write("{0} medbringer {1} tomater, ", "Per", 3);
+            Console.Write("{0} medbringer {1} æbler og ", "Lise", 5);
+            Console.Write("{0} medbringer {1} bananer.", "Kim", 2);
+        }
+    }
+}

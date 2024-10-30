@@ -1,0 +1,17 @@
+﻿namespace Opgave17
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Omkreds retvinklet trekant");
+            Console.WriteLine("Indtast højde i mm: ");
+            int h = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Indtast grundlinje i mm: ");
+            int g = Convert.ToInt32(Console.ReadLine());
+            // Hypotenuse plus h plus g
+            double omkreds = Math.Sqrt(h*h+g*g) + h + g;
+            Console.WriteLine($"Omkredsen er {omkreds:N2} mm");
+        }
+    }
+}

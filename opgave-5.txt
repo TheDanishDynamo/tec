@@ -1,0 +1,16 @@
+namespace Udskrivning
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.SetCursorPosition(50,10);
+            Console.WriteLine("Thomas Nielsen");
+            Console.SetCursorPosition(50, 11);
+            Console.WriteLine("Kvintus Alle 15, st th");
+            Console.SetCursorPosition(50, 12);
+            Console.WriteLine("2300 København S");
+            Console.ReadKey();
+        }
+    }
+}

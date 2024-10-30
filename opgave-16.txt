@@ -1,0 +1,15 @@
+﻿namespace Opgave16
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Cirkel areal og omkreds");
+            Console.WriteLine("Indtast radius i mm: ");
+            int r = Convert.ToInt32(Console.ReadLine());
+            double omkreds = 2.0 * r * Math.PI;
+            double areal = Math.PI*r*r;
+            Console.WriteLine($"Arealet er {areal:N2} mm² og omkredsen er {omkreds:N2} mm");
+        }
+    }
+}

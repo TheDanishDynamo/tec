@@ -1,0 +1,11 @@
+namespace Udskrivning
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.Write("Thomas Nielsen\nKvintus Alle 15, st th\n2300 København S");
+            Console.ReadKey();
+        }
+    }
+}

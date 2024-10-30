@@ -1,0 +1,13 @@
+﻿namespace Opgave15
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Indtast Fahrenheit: ");
+            double f = Convert.ToDouble(Console.ReadLine());
+            double c = (f - 32) / 1.8;
+            Console.WriteLine($"{f} Fahrenheit er {c} Celsius");
+        }
+    }
+}

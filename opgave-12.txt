@@ -1,0 +1,26 @@
+﻿namespace Opgave12
+{
+    internal class Program
+    {/// <summary>
+     /// OPGAVE 12
+     /// Valuta 
+     /// Lav et program hvor man kan indtaste et beløb ind f.eks.USD eller EUR. Programmet skal så omregne til DKK. Og derefter udskrive hvor mange DKK man får.
+     /// </summary>
+     /// <seealso cref="https://g.co/kgs/Ydy9Hzo"/>
+     /// <param name="args"></param>
+        static void Main(string[] args)
+        {
+            // Spørg
+            Console.Write("Indtast DKK: ");
+            // Svar
+            const double kurs = 0.14;
+            double dkk = Convert.ToDouble(Console.ReadLine());
+            double usd = dkk * kurs;
+
+
+            // udskriver
+            Console.WriteLine($"Du får USD {usd} for DKK {dkk} med kurs {kurs}");
+            Console.ReadKey();
+        }
+    }
+}

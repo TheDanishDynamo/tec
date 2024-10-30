@@ -1,0 +1,11 @@
+namespace IntroProgram
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.Write("Dette er mit første C# program");
+            Console.ReadKey();
+        }
+    }
+}

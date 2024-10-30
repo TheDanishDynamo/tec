@@ -1,0 +1,16 @@
+namespace Opgave9
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.ForegroundColor = ConsoleColor.Blue; 
+            Console.BackgroundColor = ConsoleColor.Red; 
+            Console.WriteLine("Hello, World!");
+            Console.Beep(440, 2000);
+            Console.ForegroundColor = ConsoleColor.White;
+            Console.BackgroundColor = ConsoleColor.Black;
+
+        }
+    }
+}

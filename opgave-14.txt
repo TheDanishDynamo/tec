@@ -1,0 +1,32 @@
+﻿namespace Opgve14
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            #region Trekant Areal
+            Console.WriteLine("Trekant areal");
+            Console.WriteLine("Indtast højde fra grundlinje i millimeter: ");
+            int h = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Indtast grundlinje længde i millimeter: ");
+            int g = Convert.ToInt32(Console.ReadLine());
+            // Beregn areal 
+            double areal = 0.5 * h * g;
+            Console.WriteLine($"Arealet er {areal} mm²");
+            #endregion
+
+            Console.WriteLine();
+
+            #region Rektangel Areal
+            Console.WriteLine("Rektangel areal");
+            Console.WriteLine("Indtast side a i millimeter: ");
+            int a = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Indtast side b i millimeter: ");
+            int b = Convert.ToInt32(Console.ReadLine());
+            // Beregn areal 
+            int areal2 = a*b;
+            Console.WriteLine($"Arealet er {areal2} mm²");
+            #endregion
+        }
+    }
+}
